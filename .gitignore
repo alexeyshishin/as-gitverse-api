@@ -1,0 +1,19 @@
+.claude/
+swarm-report/
+.memory-bank/
+CLAUDE.md
+
+# built CLI binary (repo root only — bare "gitverse" would also match
+# cmd/gitverse/ and internal/gitverse/, excluding source code from git)
+/gitverse
+
+# Go
+*.test
+*.out
+
+# macOS
+.DS_Store
+
+# editors
+.vscode/
+.idea/
